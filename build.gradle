@@ -76,6 +76,10 @@ repositories {
 	mavenLocal()
 	mavenCentral()
 
+	flatDir {
+		dir "C:\\Users\\Thoma\\IdeaProjects\\Rhino\\build\\libs"
+	}
+
 	maven {
 		url "https://maven.neoforged.net/releases"
 	}
